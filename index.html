@@ -1,10 +1,80 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-<script>
-alert("Faiz is working on this website. Try after some days");
-</script>
+	<script src="http://code.jquery.com/jquery-latest.min.js">
+		
+	</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js">
+		
+	</script>
+<style href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" type="stylesheet"/>
+
+<style>
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+h1{
+background:#6f6f6f;
+text-align:center;
+border: 5px solid green;
+border-radius:5px;
+font-family:monospace;
+font-size:50px;
+}
+</style>
 </head>
+
 <body>
+	
+	
+		
+	
+	
+	<h1>
+	
+	hello world!
+
+	</h1>
+<img id="effect" src="sample.jpg" alt="add keywords here">
+<script>
+
+
+
+
+//var options = {};
+// $( "#effect" ).effect( "shake",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "pulsate",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "pulsate",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "pulsate",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "pulsate",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "pulsate",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "explode",options, 1000);
+
+function callback() {
+      setTimeout(function() {
+        $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+</script>
+
+ 
+
 </body>
+
 </html>
