@@ -1,8 +1,135 @@
 <!DOCTYPE html>
 
 <html>
+<head>
+
+	<script src="http://code.jquery.com/jquery-latest.min.js">
+		
+	</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js">
+		
+	</script>
+<style href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" type="stylesheet"/>
+
+<style>
+.toggler { width: 500px; height: 200px; position: relative; }
+    #button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+    .ui-effects-transfer { border: 2px dotted gray; }
+h1{
+background:#6f6f6f;
+text-align:center;
+border: 5px solid green;
+border-radius:5px;
+font-family:monospace;
+font-size:50px;
+}
+</style>
+</head>
+
+<body>
 
 
+	<h1 id="header">
+		<center>
+		<span>
+			Hello And Welcome To My Webpage!
+		</span>
+		</center>
+	</h1>
+
+<center>
+
+<style type="text/css">
+
+#header{
+		color: #cc0000;
+		text-align: center;
+		border 3px solid black;
+	}
+#header span{
+		background-color: yellow;	
+	}
+#paragraph{
+		font-family:cursive, arial;
+		font-size:14px;
+		background-color:#cccccc;
+		width:800px;
+		padding:20px;
+		border 4px dashed green
+	}
+#navbar {
+width:100%;
+height:40px;
+background-color:#ccff66;
+}
+
+#navbar ul {
+width:80%;
+margin:0 auto 0 auto;
+}
+
+#navbar ul li {
+float:left;
+color:#000000;
+padding:0 20px 0 20px;
+border-right:1px solid #FFF;
+border-left:1px solid #FFF;
+height:40px;
+list-style:none;
+display:block;
+line-height:30px;
+text-align:center;
+cursor:pointer;
+}
+
+#navbar ul li:hover {
+background-color:#CCC;
+}
+
+</style>
+    <div id="navbar">
+
+        <ul>
+            <li>Home</li>
+            <li>About Me</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+        </ul>
+
+    </div>
+
+<p id="paragraph">
+	Hello, my name is Faiz and this is my webpage. Currently I am still learning html and css with my
+	basic web designing skills. I am expirimenting things on this webpage therefore you might run into
+	problems once in a while.
+</p>
+<footer>
+<img id="effect" src="https://lh6.googleusercontent.com/-YCjFH4J7LOQ/AAAAAAAAAAI/AAAAAAAAAFs/CJyB4mlszgc/photo.jpg?sz=64" alt="Zahid's photo.">
+
+<script>
+
+var options = {};
+ $( "#effect" ).effect( "shake",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "pulsate",options, 3000);
+
+var options = {};
+ $( "#effect" ).effect( "explode",options, 1000);
+
+function callback() {
+      setTimeout(function() {
+        $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
+      }, 1000 );
+    };
+</script>
 
 
 
@@ -187,139 +314,6 @@ FKeyPad.ReadOut.value = (parseFloat(FKeyPad.ReadOut.value) / 100) * parseFloat(A
 
 
 
-
-
-
-<head>
-
-	<script src="http://code.jquery.com/jquery-latest.min.js">
-		
-	</script>
-<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js">
-		
-	</script>
-<style href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/ui-lightness/jquery-ui.css" type="stylesheet"/>
-
-<style>
-.toggler { width: 500px; height: 200px; position: relative; }
-    #button { padding: .5em 1em; text-decoration: none; }
-    #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
-    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
-    .ui-effects-transfer { border: 2px dotted gray; }
-h1{
-background:#6f6f6f;
-text-align:center;
-border: 5px solid green;
-border-radius:5px;
-font-family:monospace;
-font-size:50px;
-}
-</style>
-</head>
-
-<body>
-
-<BODY BGCOLOR= #87CEEB>
-
-	<h1 id="header">
-		<center>
-		<span>
-			Hello And Welcome To My Webpage!
-		</span>
-		</center>
-	</h1>
-
-<center>
-
-<style type="text/css">
-
-#header{
-		color: #cc0000;
-		text-align: center;
-		border 3px solid black;
-	}
-#header span{
-		background-color: yellow;	
-	}
-#paragraph{
-		font-family:cursive, arial;
-		font-size:14px;
-		background-color:#cccccc;
-		width:800px;
-		padding:20px;
-		border 4px dashed green
-	}
-#navbar {
-width:100%;
-height:40px;
-background-color:#ccff66;
-}
-
-#navbar ul {
-width:80%;
-margin:0 auto 0 auto;
-}
-
-#navbar ul li {
-float:left;
-color:#000000;
-padding:0 20px 0 20px;
-border-right:1px solid #FFF;
-border-left:1px solid #FFF;
-height:40px;
-list-style:none;
-display:block;
-line-height:30px;
-text-align:center;
-cursor:pointer;
-}
-
-#navbar ul li:hover {
-background-color:#CCC;
-}
-
-</style>
-    <div id="navbar">
-
-        <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-        </ul>
-
-    </div>
-
-<p id="paragraph">
-	Hello, my name is Faiz and this is my webpage. Currently I am still learning html and css with my
-	basic web designing skills. I am expirimenting things on this webpage therefore you might run into
-	problems once in a while.
-</p>
-<footer>
-<img id="effect" src="https://lh6.googleusercontent.com/-YCjFH4J7LOQ/AAAAAAAAAAI/AAAAAAAAAFs/CJyB4mlszgc/photo.jpg?sz=64" alt="Zahid's photo.">
-
-<script>
-
-var options = {};
- $( "#effect" ).effect( "shake",options, 3000);
-
-var options = {};
- $( "#effect" ).effect( "pulsate",options, 3000);
-
-var options = {};
- $( "#effect" ).effect( "explode",options, 1000);
-
-function callback() {
-      setTimeout(function() {
-        $( "#effect" ).removeAttr( "style" ).hide().fadeIn();
-      }, 1000 );
-    };
-</script>
 
 </footer>
 </center>
