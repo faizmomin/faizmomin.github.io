@@ -24,10 +24,32 @@
 			background-size: cover;
 			}
 			
+		#mainP{
+			margin-left: 10px;
+			}	
 	</style>
 
 		<title>Anti Bullying</title>
 		<head>
+		
+			<script type="text/javascript">
+
+				var slideimages = new Array() // create new array to preload images
+
+					slideimages[0] = new Image() // create new instance of image object
+					slideimages[0].src = "http://th08.deviantart.net/fs70/PRE/i/2013/332/6/2/anti_bullying_by_alexgamer9000-d6w0x0c.jpg" // set image object src property to an image's src, preloading that image in the process
+				
+					slideimages[1] = new Image()
+					slideimages[1].src = "http://teen.americanobserver.net/wp-content/uploads/2013/07/bullying-logo.jpeg"
+
+					slideimages[2] = new Image()
+					slideimages[2].src = "http://nobullying.wpengine.netdna-cdn.com/wp-content/uploads/2013/03/Anti-Bullying-Slogans-for-Kids-642x336.jpg"
+				
+					slideimages[3] = new Image()
+					slideimages[3].src = "http://www.bullybusters.org.uk/images/update_images/bully1-RS-178x269.jpg"
+
+			</script>	
+		
 			<center>
 				<h1>#Delete Cyber Bullying</h1>
 				<span id="author"><b>By: Faiz Momin</b></span>
@@ -36,8 +58,30 @@
 		
 		<body>
 				<hr>
-				<img HEIGHT="250px WIDTH="250px" ALIGN="left" src="http://www.dfer.org/nobully.jpg" alt="No Bullying Image">
-				<p>Egib fo ipohi nomara isu. Huse afeteyu mozop atate lie gales ticiepan. Dezore esenuro odesas ma rele? Liminer jusd wo lip esu ramo.
+					<img src="firstcar.gif" id="slide" width="200" height="100" ALIGN="left" />
+
+					<script type="text/javascript">
+
+						//variable that will increment through the images
+						var step=0
+					
+						function slideit(){
+						//if browser does not support the image object, exit.
+						 if (!document.images)
+						  return
+						 document.getElementById('slide').src = slideimages[step].src
+						 if (step<3)
+						  step++
+						 else
+						  step=0
+						 //call function "slideit()" every 5 seconds
+					setTimeout("slideit()",5000)
+					}
+
+					slideit()
+
+					</script>
+				<p id="mainP">Egib fo ipohi nomara isu. Huse afeteyu mozop atate lie gales ticiepan. Dezore esenuro odesas ma rele? Liminer jusd wo lip esu ramo.
 				Go eyar diloy. Teru ienop woliya cal: Raduk ni rusin venadop apecirin uhu acasilon yiyi huc. Macus hiebir risin nata yelowu netenen
 				bac renede xoperan. Cunod desu colat nep tared reter me asayopi cirisoh. Selidib isax nier soreh itiey direl unese mehudi oti; tunon 
 				epabe kac ni; epalu tig oneramut elemona ninibu ri peci teyofe rileta, iciene nalama losa. Xe ogiteder ceb sib acipi qoreh boyac 
@@ -45,6 +89,9 @@
 				nadus zelid ropur; abiehe ieram tub ieribima bobirer selonig gayasa rigolap fenemen bita. Lobepit la samupa lonecer opah esat git 
 				ranag.</p>
 				<BR CLEAR="all">
+				
+				
+
 		</body>
 	
 </html>
