@@ -4,8 +4,8 @@
 	<style>
 		h1{
 			font-size: 50px;
-			color: #ff0000;
-			background: #e6f277;
+			color: #ffffff;
+			background: #2E0E66;
 			border:5px double black;
 			
 		}
@@ -13,18 +13,13 @@
 		#author{
 			text-decoration: underline;
 			font-size: 25px;
-			background: yellow;
 			}
 		
 		#html { 
-			background: Url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0NDA0MDA0MDAwMDAwMDAwMDA8MDAwMFBEWFhQRFBQYHCggGBolHBQUITEhJSkrOjouFx8zODMsNygtLisBCgoKDQ0NDw0NFCsZFBkrKzcsKywrLCw3Nyw3LCw3KzcsNzcsKzc3LCsrKywsLCwrNzcsLDcsLDcrNywsKyssN//AABEIAMIBAwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAABAAIG/8QAFhABAQEAAAAAAAAAAAAAAAAAAAER/8QAGAEBAQEBAQAAAAAAAAAAAAAAAAECBgT/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAMAwEAAhEDEQA/AOgiUL0O0KqSosKQhixSFUDTJgIyIiApAkZFRKyjiFCKACnFQZRSKMFaGAymsVRWQ0LBWQ0MRWQ1iRa1CoW2UsKEWIpUBRANDCIkcMgjKawYFUVKwQQrEARGChHFgMooUBpYgyGsQMitWCorIrQRplFCmNAtMoxGKixYTipRIVCICocECOHACwoRYsIBYCgZKIAEisYcSgDEaEUJIUCkIrKIqKkEg0YcTaVSFGDKwpRUWFFQYYjBEkhEsRBAoECgZqwpASGqABiNAqopCKBhAoBoRQDQjWBIoNQyjU2jRjMaisowEQkIQ6dZlMUJGrREkqCIQEJIJAgQEAtGqso0dOhCoVCgCNSNKsVtmouAhIrULMLTJ0wJUOnQgaWjSqGUxk6IUNQGELRCggOgLRSQhEghVWSEUhACKrQihJVFTNIouBBI00WS0hOhCNatCELUrMSo0gQR0IQ6dAA6ggKCBpBaBTK0Elo0VIJAJKigVaKikIIqLKFaIhVEpUgJEKokoREQYqKmBAUEBQ0gkhoFDUBQQIEIIakKhUEVAhFFBtAo1BIrUpBaQlmNCFAqhlQIhQKhQKIkkosSQIEAiEgQkKlQgQ0sopCAqBFRQsQ0VA6EUlJUJZKoUiISyVREICtSEWmAgkCCSQJCgGgFoEatCLCBq0WEUJFQqFFQSRQiAaLMrWqhQQjUpZWqQlmEQ6WUDWoIRpM6tCNgatBLRqAoADqqWihIagkkKEkKFBatQarNqtZFzDqZKKSyVGtTJVCtGgI3q0SrRI0hq0RrVrMpAllCHVrJFIQBoIAUNQHQFoq1BairUFoIK0IsOjUBSmdQRoxJQmBDKSQFBATAlGkkiJVJUSSFBSQSSARBAgkKkkKmSkMZSQoNSRWQkqv/2Q==);			
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
+			background: #FACFE5;
 			}
 			
-		#mainP{			
+		.mainP{			
 			font-size: 18px;
 			padding-left: 20px;
 			}	
@@ -34,7 +29,7 @@
 			padding-left: 20px;
 			}
 			
-		#mainPtitle{
+		.mainPtitle{
 			font-size: 20px;
 			text-decoration: underline;
 			}
@@ -55,22 +50,22 @@
 			}
 		
 		#navbar {
+			border: 2px solid black;
+			radius: 15px;
 			width:100%;
 			height:40px;
-			background-color:#ccff66;
+			background-color:#2E0E66;
 		}
-
 		#navbar ul {
 			width:100%;
 			margin:0 auto 0 auto;
 		}
-
 		#navbar ul li {
 			float:left;
-			color:#000000;
+			color: yellow;
 			padding:0 20px 0 20px;
-			border-right:1px solid #FFF;
-			border-left:1px solid #FFF;
+			border-right:1px solid black;
+			border-left:1px solid black;
 			height:40px;
 			list-style:none;
 			display:block;
@@ -80,25 +75,24 @@
 		}
 		
 		#navbarL {
+			border: 1px solid black;
 			float: left;
 			width: 175px;
 			height:100%px;
-			background-color:#ccff66;
+			background-color:#2E0E66;
 		}
-
 		#navbarL ul {
 			width:75%;
 			margin:0 auto 0 auto;
 		}
-
 		
 		#navbarL ul li {
-			color:#000000;
+			color: yellow;
 			padding-left: 0px;
 			padding-right: 10px;
-			border-top:1px solid #FFF;
-			border-bottom:1px solid #FFF;
-			height:40px;
+			border-top:1px solid #fff;
+			border-bottom:1px solid #fff;
+			height:60px;
 			list-style:none;
 			display:block;
 			line-height:30px;
@@ -110,7 +104,34 @@
 			float: right;
 			width: 85%;
 		}
-			
+		
+		#a{
+			display: none;
+		}
+		
+		#b{
+			display: none;
+		}		
+		
+		#c{
+			display: none;
+		}
+
+		#d{
+			display: none;
+		}
+
+		#e{
+			display: none;
+		}	
+
+		#f{
+			display: none;
+		}
+
+		#g{
+			display: none;
+		}		
 	</style>
 
 		<title>Anti Bullying</title>
@@ -140,14 +161,17 @@
 	<div id="navbar">
 
         <ul>
-            <li>Home</li>
-            <li>Different Types of Bullying</li>
-            <li>Facts</li>
-            <li>Quotes</li>
-            <li>Video</li>
-	    <li>FAQ's</li>
-	    <li>Something</li>
-	    <li>Something</li>
+		<strong>
+            <li><a id="home1">Home</a></li>
+            <li><a id="home2">Types of Bullying</a></li>
+			<li><a id="home3">Cyber Bullying</a></li>
+			<li><a id="home4">People Involved in Bullying</a></li>
+			<li><a id="home5">Prevention Tips</a></li>
+            <li><a id="home6">Facts</a></li>
+			<li><a id="home7">Effects of Bullying</a></li>
+            <li><a id="home8">Quotes</a></li>
+            <li><a id="home9">Video</a></li>		
+		</strong>	
         </ul>
 
     </div>
@@ -156,15 +180,17 @@
 		<div id="navbarL">
 
         <ul>
+		<strong>
             <li>Home</li>
-            <li>About Me</li>
-            <li>Upcoming Events</li>
-            <li>Science Curriculum</li>
-            <li>Homework</li>
-			<li>FAQ's</li>
-			<li>Something</li>
-			<li>Something</li>
-			<li>Something</li>
+            <li>Types of Bullying</li>
+			<li>Cyber Bullying</li>
+			<li>People Involved in Bullying</li>
+			<li>Prevention Tips</li>
+            <li>Facts</li>
+			<li>Effects of Bullying</li>
+            <li>Quotes</li>
+            <li>Video</li>
+		</strong>
         </ul>
 
     </div>
@@ -195,25 +221,247 @@
 					slideit()
 					</script>
 				
-				<strong><span id="mainPtitle">Hey There</span></strong>
-				
-				<div id="mainP">
-				
-				<p>How much social media do you use? Have you thought about how much information you put on the internet about yourself? Do you know what cyber bullying is? If you don't, you are in the right place. Here you will find out what bullying is, what cyber bullying is, the different people involved in it, and tips on how you can prevent it.</p>
-				
-				</div>
-				
+			<div id="home" class="all">
+				<strong><span class="mainPtitle">Hey There</span></strong>
+								
+				<p class="mainP">How much social media do you use? Have you thought about how much information you put on the internet about yourself? Do you know what cyber bullying is? If you don't, you are in the right place. Here you will find out what bullying is, the different types of bullying, the different people involved in it, tips on how you can prevent it, and much more. This website is for all kinds of bullying, especially cyber bullying.</p>
+								
 				<strong><p id="bullyingTitle">Bullying</p></strong>
-
-				<p id="bullying">So what is bullying? In the oxford dictionary, it says "Use superior strength or influence to intimidate (someone), typically to force them to do something". This pretty much means that somebody thinks that they are better that someone else and that they can do what they want to the person. The bully uses their power (this can be strength, popularity, etc) to force another person to do something else. Depending on how serious the problem is, the consequences can be fatal for the victim.</p>
+				
+				<p id="bullying">Before you go anywhere, you need to know what bullying is. In the oxford dictionary, it says "Use superior strength or influence to intimidate (someone), typically to force them to do something". This pretty much means that somebody thinks that they are better that someone else and that they can do what they want to the person. The bully uses their power (this can be strength, popularity, etc) to force another person to do something else. Depending on how serious the problem is, the consequences can be fatal for the victim. Now that you know what bullying is, you can check out the rest of the website.</p>
 				
 				
         			<img id="bullyingLogo" src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Targeted_Individuals.png/220px-Targeted_Individuals.png" height="100px" width="75px" align="right">
-
+			</div>
+			
+			
+			<div id="a" class="all">
+			
+				<strong><span class="mainPtitle">Different Types of Bullying</span></strong>
+				<p id="types" class="mainP"><strong>Physical</strong> -pushing, hitting, shoving, slapping, kicking, spitting at, or beating others up; damaging or stealing another person's belongings, etc
+								<br>
+								<br>
+								<strong>Verbal</strong> -calling someone names, teasing or making fun of them; saying bad things about others; making others look silly; telling others not to talk to someone, etc
+								<br>
+								<br>
+								<strong>Electronic/Cyber</strong> -sending email or phone text messages or pictures to threaten someone, hurt their feelings, embarrass or make them look bad, or to tell people secrets about them, etc
+								<br>
+								<br>
+								<strong>Racial/Ethno Cultural</strong> -treating others differently or badly because of their race, culture, or the color of their skin; saying bad things about someone's race, culture, or skin color; telling racist jokes, etc
+								<br>
+								<br>
+								<strong>Religion Based</strong> -treating others differently or badly because of their religion; saying bad things about someone's religion
+								<br>
+								<br>
+								<strong>Gender Based</strong> -leaving others out or treating them badly because they are a boy or a girl; saying things or joking in a way that makes someone feel bad about being a boy or a girl.</p>
+			
+			</div>
+			
+			
+			<div id="b" class="all">
+			
+				<strong><span class="mainPtitle">Cyber Bullying</span></strong>
+				<p id="cyber" class="mainP">When people think of bullying, the first thing that goes into their mind is some person beating up someone smaller than them. However, there are many types of bullying that can happen to people. This webpage is specifically for cyber bullying. Cyber bullying is where you bully somebody through digital media online. This can be sending them mean, rude or threatening messages, make a fake profile of someone and make fun of them on it, etc.</p>
+			
+			</div>
+			
+			
+			<div id="c" class="all">
+			
+				<strong><span class="mainPtitle">People Involved in Bullying Situations</span></strong>
+				<p id="involve" class="mainP"><strong>Bully</strong> -someone responsible for bullying, a form of aggressive behavior manifested by the use of force or coercion to affect others.
+												<br>
+												<br>
+												<strong>Victim</strong> -someone who may have characteristics such as being physically weak as well as being easily distraught emotionally. They may also have physical characteristics that make them easier targets for bullies such as being overweight or having some type of physical deformity. Boys are more likely to be victims of physical bullying while girls are more likely to be bullied indirectly.
+												<br>
+												<br>
+												<strong>Bystander</strong> -A bystander is someone who sees or knows about bullying or other forms of violence that is happening to someone else; they can either be part of the problem (hurtful bystander) or part of the solution (helpful bystander). It's easy to ignore incidents of bullying, or walk away thinking "at least it’s not me".</p>
+			
+			</div>
+			
+			
+			<div id="d" class="all">
+			
+				<strong><span class="mainPtitle">Tips For Preventing Bullying</span></strong>
+				<ol id="prevention" class="mainP" type="1">
+													<li>Discipline</li>
+													<li>Create opportunities to "do good"</li>
+													<li>Nurture Empathy</li>
+													<li>Teach friendship skills</li>
+													<li>Closely monitor TV viewing, video games, computer activities, and social media</li>
+													<li>Engage in more constructive, entertaining, energizing activities</li>
+													<li>Teach ways to "will good"</li>
+</ol>
+			
+			</div>
+			
+			
+			<div id="e" class="all">
+				
+								<strong><span class="mainPtitle">Bullying Facts</span></strong>
+				<p id="bullyFacts" class="mainP">
+				1. Over 3.2 million students are victims of bullying each year.
+				<br>
+				<br>
+				2. Approximately 160,000 teens skip school every day because of bullying.
+				<br>
+				<br>
+				3. 17% of American students report being bullied 2 to 3 times a month or more within a school semester.
+				<br>
+				<br>
+				4. 1 in 4 teachers see nothing wrong with bullying and will only intervene 4% of the time.
+				<br>
+				<br>
+				5. By age 14 less than 30% of boys and 40% of girls will talk to their peers about bullying.
+				<br>
+				<br>
+				6. Over 67% of students believe that schools respond poorly to bullying, with a high percentage of students believing that adult help is infrequent and ineffective.
+				<br>
+				<br>
+				7. 71% of students report incidents of bullying as a problem at their school.
+				<br>
+				<br>
+				8. 90% of 4th through 8th graders report being victims of bullying.
+				<br>
+				<br>
+				9. 1 in 10 students drop out of school because of repeated bullying.
+				<br>
+				<br>
+				10. As boys age they are less and less likely to feel sympathy for victims of bullying. In fact they are more likely to add to the problem than solve it.
+				<br>
+				<br>
+				11. Physical bullying increases in elementary school, peaks in middle school and declines in high school. Verbal abuse, on the other hand, remains constant.
+				<p/>
+				
+				<strong><span class="mainPtitle">Cyber Bullying Facts</span></strong>
+				<p id="cyberFacts" class="mainP">
+				1. Nearly 43% of kids have been bullied online. 1 in 4 has had it happen more than once.
+				<br>
+				<br>
+				2. 70% of students report seeing frequent bullying online.
+				3. Over 80% of teens use a cell phone regularly, making it the most common medium for cyber bullying.
+				<br>
+				<br>
+				4. 68% of teens agree that cyber bullying is a serious problem.
+				<br>
+				<br>
+				5. 81% of young people think bullying online is easier to get away with than bullying in person.
+				<br>
+				<br>
+				6. 90% of teens who have seen social-media bullying say they have ignored it. 84% have seen others tell cyber bullies to stop.
+				<br>
+				<br>
+				7. Only 1 in 10 victims will inform a parent or trusted adult of their abuse.
+				<br>
+				<br>
+				8. Girls are about twice as likely as boys to be victims and perpetrators of cyber bullying.
+				<br>
+				<br>
+				9. About 58% of kids admit someone has said mean or hurtful things to them online. More than 4 out 10 say it has happened more than once.
+				<br>
+				<br>
+				10. Bullying victims are 2 to 9 times more likely to consider committing suicide.
+				<br>
+				<br>
+				11. About 75% of students admit they have visited a website bashing another student.				
+				</p>
+				
+			</div>
+			
+			
+			<div id="f" class="all">
+			
+				<strong><span class="mainPtitle">Effects of Bullying</span></strong>
+				<p id="effects" class="mainP">
+						<strong>In the short term:</strong>
+						<br>
+						<br>
+						Anger
+						<br>
+						<br>
+						Depression 
+						<br>
+						<br>
+						Anxious avoidance of settings in which bullying may occur.
+						<br>
+						<br>						
+						Greater incidence of illness 
+						<br>
+						<br>
+						Lower grades than non-bullied peers 
+						<br>
+						<br>
+						Suicidal thoughts and feelings
+						<br>
+						<br>
+						<br>
+						<br>
+						<strong>In the long term:</strong>
+						<br>
+						<br>
+						Reduced occupational opportunities 
+						<br>
+						<br>
+						Lingering feelings of anger and bitterness, desire for revenge.
+						<br>
+						<br>						
+						Difficulty trusting people 
+						<br>
+						<br>
+						Interpersonal difficulties, including fear and avoidance of new social situations 
+						<br>
+						<br>
+						Increased tendency to be a loner(lonely) 
+						<br>
+						<br>
+						Perception of self as easy to victimize, overly sensitive, and thin-skinned 
+						<br>
+						<br>
+						Self-esteem problems
+						<br>
+						<br>
+						Increased incidence of continued bullying and victimization</p>
+				
+			</div>
+			
+			
+			<div id="g" class="all">
+			
+				<strong><span class="mainPtitle">Quotes on Bullying</span></strong>
+				
+				<p id="quotes" class="mainP">
+								
+								"If you're horrible to me, I'm going to write a song about it, and you won't like it. That's how I operate."<br> 
+								- Taylor Swift
+								<br>
+								<br>
+								"One's dignity may be assaulted, vandalized and cruelly mocked, but it can never be taken away unless it is surrendered."<br> 
+								- Michael J. Fox
+								<br>
+								<br>
+								"I would rather be a little nobody, then to be a evil somebody."<br> 
+								- Abraham Lincoln
+								<br>
+								<br>
+								"Knowing what's right doesn't mean much unless you do what's right." <br>
+								- Theodore Roosevelt
+								<br>
+								<br>
+								"If you are neutral in situations of injustice, you have chosen the side of the oppressor. If an elephant has its foot on the tail of a mouse, and you say that you are neutral, the mouse will not appreciate your neutrality."<br> 
+								- Desmond Tutu</p>
+			
+			</div>
+			
+			
+			<div id="h" class="all">
+				
+			</div>
+			
+			
+			
 </div>
 		</body>
 	
 </html>
 
 <!--background alternative  http://qph.is.quoracdn.net/main-qimg-76b2ba937a33bae7e1c97822cd929cda?convert_to_webp=true-->
-<!--http://codepen.io/anon/pen/qEEzrb.html-->
