@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-
 <html id="html">
 <head>
 
@@ -139,11 +137,8 @@
         }   
         #f{
             display: none;
-        }
-        #g{
-            display: none;
-        }  
-		#h{
+        } 
+		        #h{
             display: none;
         } 
 #footer {
@@ -163,11 +158,13 @@ display:none;
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript">
             var slideimages = new Array(); // create new array to preload images
+                    
                     slideimages[0] = new Image(); // create new instance of image object
-                    slideimages[0].src = "http://th08.deviantart.net/fs70/PRE/i/2013/332/6/2/anti_bullying_by_alexgamer9000-d6w0x0c.jpg"; // set image object src property to an image's src, preloading that image in the process
+                    slideimages[0].src = "data:image/jpeg;base64,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"; // set image object src property to an image's src, preloading that image in the process
                 
                     slideimages[1] = new Image();
-                    slideimages[1].src = "http://teen.americanobserver.net/wp-content/uploads/2013/07/bullying-logo.jpeg";
+                    slideimages[1].src = "http://scienceblogs.com/twominds/wp-content/blogs.dir/266/files/2012/04/i-aaea1d66530d37177eb467bb1acb0487-HM36~Drugs-Are-Bad-Posters.jpg";
+      
                     slideimages[2] = new Image();
                     slideimages[2].src = "http://nobullying.wpengine.netdna-cdn.com/wp-content/uploads/2013/03/Anti-Bullying-Slogans-for-Kids-642x336.jpg";
                 
@@ -179,7 +176,7 @@ display:none;
 
 <body>
 <center>
-    <h1 style="text-align:center;">#Delete Cyber Bullying</h1>
+    <h1 style="text-align:center;">#Cocaine4Life</h1>
 	<span id="author" style="font-weight: bold; text-align:center;">By: Faiz Momin</span>
     <hr>
 </center>
@@ -190,20 +187,17 @@ display:none;
 
             <li><strong><a id="home1">Home</a></strong></li>
 
-            <li><strong><a id="home2">Types of Bullying</a></strong></li>
+            <li><strong><a id="home2">Teen Letter & Response</a></strong></li>
 
             <li><strong><a id="home3">Cyber Bullying</a></strong></li>
 
-            <li><strong><a id="home4">People Involved in
-            Bullying</a></strong></li>
+            <li><strong><a id="home4">People Involved in Bullying</a></strong></li>
 
             <li><strong><a id="home5">Prevention Tips</a></strong></li>
 
             <li><strong><a id="home6">Facts</a></strong></li>
 
             <li><strong><a id="home7">Effects of Bullying</a></strong></li>
-
-            <li><strong><a id="home8">Quotes</a></strong></li>
 
             <li><strong><a id="home9">Video</a></strong></li>
         </ul>
@@ -275,12 +269,9 @@ display:none;
 		</div>
 
         <div class="all" id="a">
-            <strong><span class="mainPtitle">Different Types of
-            Bullying</span></strong>
+            <strong><span class="mainPtitle">Teen Letter</span></strong>
 
-            <p class="mainP" id="types"><strong>Physical</strong> -pushing,
-            hitting, shoving, slapping, kicking, spitting at, or beating others
-            up; damaging or stealing another person's belongings, etc<br>
+            <p class="mainP" id="types">Hello,<br> <br> My name is Runcha and I LUV cocaine! I just can't stop using it. I really wanted to stop but my friends pressured me and made me use it. Now I am addicted to it and don't know if I should stop or not. I have been using it for a couple of months now and it hasn't really done anything bad. I just feel really energetic for a short period of time and depressed later. But I just take some more cocaine and I am all better. I am in a sticky situation and really need some advice.<br><br>Sincerely<br>Runcha  <br>
             <br>
             <strong>Verbal</strong> -calling someone names, teasing or making
             fun of them; saying bad things about others; making others look
@@ -497,33 +488,6 @@ display:none;
             Self-esteem problems<br>
             <br>
             Increased incidence of continued bullying and victimization</p>
-        </div>
-
-        <div class="all" id="g">
-            <strong><span class="mainPtitle">Quotes on Bullying</span></strong>
-
-            <p class="mainP" id="quotes">"If you're horrible to me, I'm going
-            to write a song about it, and you won't like it. That's how I
-            operate."<br>
-            - Taylor Swift<br>
-            <br>
-            "One's dignity may be assaulted, vandalized and cruelly mocked, but
-            it can never be taken away unless it is surrendered."<br>
-            - Michael J. Fox<br>
-            <br>
-            "I would rather be a little nobody, then to be a evil
-            somebody."<br>
-            - Abraham Lincoln<br>
-            <br>
-            "Knowing what's right doesn't mean much unless you do what's
-            right."<br>
-            - Theodore Roosevelt<br>
-            <br>
-            "If you are neutral in situations of injustice, you have chosen the
-            side of the oppressor. If an elephant has its foot on the tail of a
-            mouse, and you say that you are neutral, the mouse will not
-            appreciate your neutrality."<br>
-            - Desmond Tutu</p>
         </div>
 
         <div class="all" id="h">
