@@ -1,38 +1,32 @@
-<!DOCTYPE HTML>
 <html>
-	<canvas id=”canvas” width=”500” height”=500</canvas>
-	<script?
-		//this is the position of my circle
-		var x = 250;
-		var y = 250;
-
-		//this tells the program what to do when it starts
-		window.onload = function() {
-			theCanvas = document.getElementsId(“canvas”);
-			drawContext = theCanvas.getContext("2D");
-
-			//draw a read circle
-			drawContext.fillStyle = "red";
-			drawContext.beginPath();
-			drawContext.arc(250,250,100,0,Math.PI*2);
-			drawContext.fill();
-		}
-
-		//names a function that will repeat 60 times every second
-		 setInterval(repeats, 1000/60);
-
-		 //here is the code that will repeat over and over again
-		 function repeats(){
-			x = x + 1;
-			//draw a black background
-			drawContext.fillStyle = "black";
-			drawContext.fillRect(0,0,500,500);
-
-			//draw a red circle
-			drawContext.fillStyle = "red";
-			drawContext.beginPath();
-			drawContext.arc(x,y,100,0,Math.PI*2);
-			drawContext.fill();
-		 }
-	</script>
+   <head>
+      <title>AYYYY</title>
+   </head>
+   <body>
+      <canvas id="can" width="500" height="500"></canvas>
+      <script>
+         var x = 250;
+         var y = 250;
+         canvas = document.getElementById("can");
+         drawContex = canvas.getContext("2d");
+         window.onload = function(){
+         
+         	//draw a red circle
+         	drawContex.fillStyle = "red";
+         	drawContex.beginPath();
+         	drawContex.arc(x,y,100,0,Math.PI*2);
+         	drawContex.fill();
+         	}
+         setInterval(repeat,1000/60);
+         
+         function repeat(){
+         	x += 1;
+         	drawContex.clearRect(0, 0, 500, 500);
+         	drawContex.beginPath();
+         	drawContex.arc(x,y,100,0,Math.PI*2);
+         	drawContex.fill();
+         }
+      </script>
+   </body>
 </html>
+
