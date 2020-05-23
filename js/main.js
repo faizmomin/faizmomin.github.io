@@ -268,6 +268,13 @@ jQuery(document).ready(function($) {
 	  });
   }
 
+  $(document).ready(function() {
+    $(window).load(function() {
+         $('#loader').hide();
+         $('#pagecontent').show();
+    });
+});
+
   siteIstotope();
 
 });
