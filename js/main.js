@@ -270,13 +270,4 @@ jQuery(document).ready(function($) {
 
   siteIstotope();
 
-
-  $('.fancybox').on('click', function() {
-	  var visibleLinks = $('.fancybox');
-
-	  $.fancybox.open( visibleLinks, {}, visibleLinks.index( this ) );
-
-	  return false;
-	});
-
 });
